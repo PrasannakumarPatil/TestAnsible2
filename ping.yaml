@@ -1,0 +1,5 @@
+---
+- name: ping
+  tasks: 
+    - name: Test to connection to windows
+      win_ping: 
